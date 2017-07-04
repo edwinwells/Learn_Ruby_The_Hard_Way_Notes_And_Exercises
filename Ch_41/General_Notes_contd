@@ -1,0 +1,33 @@
+=begin
+
+CODE STRUCTURE:
+
+class X < y
+"Make a class named X that is-a Y."
+"Make a class named ??? that is-a Y."
+OR, more familiarly:
+class ComputerSequential < Player
+"Make a class named ComputerSequential that is-a Player."
+
+class X: def initialize(J)
+"class X has-a initialize that takes a J parameter."
+"class ??? has-a initialize that takes ??? parameters."
+
+class X: def M(J)
+"class X has-a function named M that takes a J parameter."
+"class ??? has-a function named ??? that takes ??? parameters."
+
+foo = X.new()
+"Set foo to an instance of class X."
+"Set ??? to an instance of class ???."
+
+foo.M(J)
+"From foo, get the M function, and call it with parameter J."
+"From ???, get the ??? function, and call it with parameters ???."
+
+foo.K = Q
+"From foo, get the K attribute, and set it to Q."
+"From ???, get the ??? attribute, and set it to ???."
+
+
+=end
